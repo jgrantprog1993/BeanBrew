@@ -1,0 +1,28 @@
+
+iframe {
+  display: block;
+  width : 500px ;
+  height : 250px;
+  margin: 0 auto;
+ 
+}
+.medium-left-img {
+  width: 300px;
+  float: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.small-center-img {
+  width: 300px;
+  float: center;
+  margin: 10px;
+}
+.small-right-img {
+  width: 300px;
+  float: right;
+  margin: 5px;
+}
+

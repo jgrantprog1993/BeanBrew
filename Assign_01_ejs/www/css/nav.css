@@ -1,0 +1,13 @@
+
+ul#menu {
+text-align: center;
+margin-block-start: -.5em;
+padding-inline-start:0px;
+}
+
+ul#menu li {
+  display: inline;
+  text-align: center;
+  font-weight: 900;
+
+}
