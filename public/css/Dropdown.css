@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #1A1A1A;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #1A1A1A; 
+}
+
+.navbar ul {
+   padding-inline-start: 0px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+#menu li.active a {
+  background: #C78D57;
+  color: white;
+}
+#menu li.active {
+  background: #C78D57;
+  color: white;
+}
+
+
+.subnav {
+  float: left;
+  overflow: hidden;
+  font-weight: 900;
+
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  font-weight: 900;
+}
+
+#navigation{
+
+   display: flex;
+   justify-content: center;
+
+}
+
+#navigation > div {
+
+   
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #C78D57;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  background-color: #C78D57;
+  /*width: 50%;*/
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  z-index: 1; /* Tells code what elements are infront*/
+
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #785631;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}

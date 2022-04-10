@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/home.css">
+    <title>Home Page</title>
+  </head>
+  <body>
+  <div class="container">
+      <div id="header">
+        <h1>
+          Welcome to BeanBrew
+        </h1>
+      </div>
+      <div id="navigation">
+    <ul id="menu">
+       <div class="navbar">
+            <ul>
+                <li id="index"><a href="index.html">Home</a></li>
+                <div class="subnav">
+                <li id="CoffeeBeans"><button class="subnavbtn">Coffee Beans <i class="fa fa-caret-down"></i></button></li>
+                    <div class="subnav-content">
+                        <a href="CoffeeBeans_Overview.html">Overview (single Origin vs Blends)</a>
+                        <a href="CoffeeBeans_Kenya.html">Kenya</a>
+                        <a href="CoffeeBeans_Columbia.html">Columbia</a>
+                    </div>
+                </div> 
+                <div class="subnav">
+                <li id="CoffeeBrew"><button class="subnavbtn">Coffee Brewing Methods <i class="fa fa-caret-down"></i></button></li>
+                    <div class="subnav-content">
+                    <a href="CoffeeBrewMeth_Espresso.html">Espresso Machine</a>
+                    <a href="CoffeeBrewMeth_FrenchPress.html">French Press</a>
+                    <a href="CoffeeBrewMeth_Chemex.html">Chemex</a>
+                 </div>
+                </div> 
+                <li id="Blog"><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </ul>
+</div>
+
+<script>
+  document.querySelector("#CoffeeBrew").classList.add("active")
+</script>
+      <div id="maincontent">
+        <div id="primary">
+          <h1>Espresso Machine</h1>
+          <p>
+            An espresso machine brews coffee by forcing pressurized water near boiling point through a "puck" of ground coffee and a filter in order to produce a thick, concentrated coffee called espresso. 
+          </p>
+          <p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-kd-zX-JOVU?start=5&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe><br>
+            There are many variables in the process of making a shot of espresso. The temperature of the water, the pressure of the water, the fineness of the ground coffee and how tightly the coffee is packed are just a few. 
+          </p>
+          
+          <p>
+
+           The skilled espresso maker, or barista, controls all of these variables to produce a quality shot of espresso. 
+          </p>
+        </div>
+        <div id="secondary">
+          <p>
+            <img src="./images/espressomachine.png" class="small-center-img">
+          </p>
+          <h3>Characteristics</h3>
+          <p>
+            A well-made espresso will generally have
+            <ul>
+              <li>A heavy body</li>
+              <li>Rich texture</li>
+              <li>Bittersweet taste</li>
+              <li>Layer of crema on the surface</li>
+            </ul>
+          </p>
+          
+        </div>
+      </div>
+    
+  
+
+      <div id="footer">
+        <p>
+          Contact: 081-1234567 <br/>
+          Email: beanbrewreview@fakemail.com<br/>
+          Location: Coming Soon !<br/>
+        </p>
+</div>
+    </div>
+  </body>
+</html>

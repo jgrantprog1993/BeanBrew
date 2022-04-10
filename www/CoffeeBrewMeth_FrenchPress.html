@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/home.css">
+    <title>Home Page</title>
+  </head>
+  <body>
+  <div class="container">
+      <div id="header">
+        <h1>
+          Welcome to BeanBrew
+        </h1>
+      </div>
+      <div id="navigation">
+    <ul id="menu">
+       <div class="navbar">
+            <ul>
+                <li id="index"><a href="index.html">Home</a></li>
+                <div class="subnav">
+                <li id="CoffeeBeans"><button class="subnavbtn">Coffee Beans <i class="fa fa-caret-down"></i></button></li>
+                    <div class="subnav-content">
+                        <a href="CoffeeBeans_Overview.html">Overview (single Origin vs Blends)</a>
+                        <a href="CoffeeBeans_Kenya.html">Kenya</a>
+                        <a href="CoffeeBeans_Columbia.html">Columbia</a>
+                    </div>
+                </div> 
+                <div class="subnav">
+                <li id="CoffeeBrew"><button class="subnavbtn">Coffee Brewing Methods <i class="fa fa-caret-down"></i></button></li>
+                    <div class="subnav-content">
+                    <a href="CoffeeBrewMeth_Espresso.html">Espresso Machine</a>
+                    <a href="CoffeeBrewMeth_FrenchPress.html">French Press</a>
+                    <a href="CoffeeBrewMeth_Chemex.html">Chemex</a>
+                 </div>
+                </div> 
+                <li id="Blog"><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </ul>
+</div>
+
+<script>
+  document.querySelector("#CoffeeBrew").classList.add("active")
+</script>
+      <div id="maincontent">
+        <div id="primary">
+        <h1>French Press</h1>
+         <p>
+            A French press, (also known as a cafetière, cafetière à piston, caffettiera a stantuffo, press pot, coffee press, or coffee plunger), consists of a narrow cylindrical beaker, usually made of glass or clear plastic, equipped with a metal or plastic lid and plunger that fits tightly in the cylinder and has a fine stainless steel wire or nylon mesh filter.
+            The video below describes how to ,ake a perfect brew with the French Press.
+          </p>
+          <p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/w3A_Z1J78HY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+            Coffee is brewed by placing coarsely ground coffee in the empty beaker and adding hot—between 93–96 °C (199–205 °F)—water, in proportions of about 30 g (1.1 oz) of coffee grounds to 500 ml of water, more or less to taste. Plunging slowly is purported to maximize the extraction of the oils and flavonoids from the ground bean. The mesh piston normally does not compress the coffee grounds, as most designs leave a generous space—about 30 mm (1.2 in)—below the piston in its lowest position. If the brewed coffee is allowed to remain in the beaker with the used grounds, the coffee may become astringent and bitter, though this is an effect that some users of the French press consider desirable.
+          </p>
+          <p>
+           A French press works best with coffee of a coarser grind than does a drip brew coffee filter, about the consistency of cooking salt. Finer coffee grounds, when immersed in water, have lower permeability, requiring an excessive amount of force to be applied by hand to lower the plunger and are more likely to seep through or around the perimeter of the press filter and into the coffee drink. Additionally, finer grounds will tend to over-extract and cause the coffee to taste bitter.
+          </p>
+        </div>
+        <div id="secondary">
+          <p>
+            <img src="./images/frenchpress.jpg" class="small-center-img">
+          </p>
+          <h3>Characteristics</h3>
+          <p>
+            A well-made French-Press will generally have
+            <ul>
+              <li>A heavy body</li>
+              <li>Rich texture</li>
+              <li>Bittersweet taste</li>
+              <li>Layer of crema on the surface</li>
+            </ul>
+          </p>
+      </div>
+    </div>
+  
+
+      <div id="footer">
+        <p>
+          Contact: 081-1234567 <br/>
+          Email: beanbrewreview@fakemail.com<br/>
+          Location: Coming Soon !<br/>
+        </p>
+</div>
+    </div>
+  </body>
+</html>

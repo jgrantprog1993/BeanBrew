@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/home.css">
+    <title>Home Page</title>
+  </head>
+  <body>
+  <div class="container">
+      <div id="header">
+        <h1>
+          Welcome to BeanBrew
+        </h1>
+      </div>
+      <div id="navigation">
+    <ul id="menu">
+       <div class="navbar">
+            <ul>
+                <li id="index"><a href="index.html">Home</a></li>
+                <div class="subnav">
+                <li id="CoffeeBeans"><button class="subnavbtn">Coffee Beans <i class="fa fa-caret-down"></i></button></li>
+                    <div class="subnav-content">
+                        <a href="CoffeeBeans_Overview.html">Overview (single Origin vs Blends)</a>
+                        <a href="CoffeeBeans_Kenya.html">Kenya</a>
+                        <a href="CoffeeBeans_Columbia.html">Columbia</a>
+                    </div>
+                </div> 
+                <div class="subnav">
+                <li id="CoffeeBrew"><button class="subnavbtn">Coffee Brewing Methods <i class="fa fa-caret-down"></i></button></li>
+                    <div class="subnav-content">
+                    <a href="CoffeeBrewMeth_Espresso.html">Espresso Machine</a>
+                    <a href="CoffeeBrewMeth_FrenchPress.html">French Press</a>
+                    <a href="CoffeeBrewMeth_Chemex.html">Chemex</a>
+                 </div>
+                </div> 
+                <li id="Blog"><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </ul>
+</div>
+
+<script>
+  document.querySelector("#index").classList.add("active")
+</script>
+      <div id="maincontent">
+        <div id="primary">
+          <h1>HomePage</h1>
+          <p>
+            BeanBrew is a website dedicated to all things Coffee ! 
+          </p>
+          <p>
+            This website will touch on many things coffee related such as coffee beans, their origins, how to create the perfect coffee from each brewing method.
+            Also catch my latest blog.
+          </p>
+          <p>
+            This video sets the tone of this website, a fantastic montage of the coffee house experience.
+          </p>
+          <p>
+            <iframe src="https://www.youtube.com/embed/65QnBqZxBJ0?start=6&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen>
+            </iframe>
+          </p>
+          
+          <p>
+            Hopefully this homepage gives you a siductive feeling that lures you in and entrigues you to search further.
+          </p>
+        </div>
+        <div id="secondary">
+  <h2>
+    Coffee Fact of the Day
+ </h2>
+  <h3>
+   Coffee beans are technically seeds.
+  </h3>
+    <p><img src="images/64893721.vkpJOubE.2006071416.16.03.jpg" class="small-right-img">
+       They're the pits of the cherry-like berries found on the flowering shrubs, but we call them "beans" because of the resemblance to legumes.
+    </p>
+</div>
+      </div>
+  
+
+      <div id="footer">
+        <p>
+          Contact: 081-1234567 <br/>
+          Email: beanbrewreview@fakemail.com<br/>
+          Location: Coming Soon !<br/>
+        </p>
+</div>
+    </div>
+  </body>
+</html>

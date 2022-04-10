@@ -1,0 +1,30 @@
+<div id="navigation">
+    <ul id="menu">
+       <div class="navbar">
+            <ul>
+                <li id="index"><a href="index.html">Home</a></li>
+                <div class="subnav">
+                <li id="CoffeeBeans"><button class="subnavbtn">Coffee Beans <i class="fa fa-caret-down"></i></button></li>
+                    <div class="subnav-content">
+                        <a href="CoffeeBeans_Overview.html">Overview (single Origin vs Blends)</a>
+                        <a href="CoffeeBeans_Kenya.html">Kenya</a>
+                        <a href="CoffeeBeans_Columbia.html">Columbia</a>
+                    </div>
+                </div> 
+                <div class="subnav">
+                <li id="CoffeeBrew"><button class="subnavbtn">Coffee Brewing Methods <i class="fa fa-caret-down"></i></button></li>
+                    <div class="subnav-content">
+                    <a href="CoffeeBrewMeth_Espresso.html">Espresso Machine</a>
+                    <a href="CoffeeBrewMeth_FrenchPress.html">French Press</a>
+                    <a href="CoffeeBrewMeth_Chemex.html">Chemex</a>
+                 </div>
+                </div> 
+                <li id="Blog"><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </ul>
+</div>
+
+<script>
+  document.querySelector("#<%= id %>").classList.add("active")
+</script>

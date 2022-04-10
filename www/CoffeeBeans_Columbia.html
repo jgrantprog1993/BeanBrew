@@ -1,0 +1,106 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/home.css">
+    <title>Home Page</title>
+  </head>
+  <body>
+  <div class="container">
+      <div id="header">
+        <h1>
+          Welcome to BeanBrew
+        </h1>
+      </div>
+      <div id="navigation">
+    <ul id="menu">
+       <div class="navbar">
+            <ul>
+                <li id="index"><a href="index.html">Home</a></li>
+                <div class="subnav">
+                <li id="CoffeeBeans"><button class="subnavbtn">Coffee Beans <i class="fa fa-caret-down"></i></button></li>
+                    <div class="subnav-content">
+                        <a href="CoffeeBeans_Overview.html">Overview (single Origin vs Blends)</a>
+                        <a href="CoffeeBeans_Kenya.html">Kenya</a>
+                        <a href="CoffeeBeans_Columbia.html">Columbia</a>
+                    </div>
+                </div> 
+                <div class="subnav">
+                <li id="CoffeeBrew"><button class="subnavbtn">Coffee Brewing Methods <i class="fa fa-caret-down"></i></button></li>
+                    <div class="subnav-content">
+                    <a href="CoffeeBrewMeth_Espresso.html">Espresso Machine</a>
+                    <a href="CoffeeBrewMeth_FrenchPress.html">French Press</a>
+                    <a href="CoffeeBrewMeth_Chemex.html">Chemex</a>
+                 </div>
+                </div> 
+                <li id="Blog"><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </ul>
+</div>
+
+<script>
+  document.querySelector("#CoffeeBeans").classList.add("active")
+</script>
+      <div id="maincontent">
+        <div id="primary">
+          <h1>Kenyan Bean Info</h1>
+            <table id="tb" style="width:100%">
+              <tr>
+                <td><h4>Growing Altitude:</h4></td>
+                <td>900–2,000 metres </td>
+              </tr>
+              <tr><td><h4>Variety: </h4></td>
+                  <td>Arabica</td>
+              </tr>
+              <tr><td><h4> Harvest Period:</h4> </td>
+                  <td>2 per year: one in autumn and one in spring</td>
+              </tr>
+              <tr><td><h4> Milling Process:</h4> </td>
+                  <td>Fully Washed, Sun-Dried on Raised Beds</td>
+              </tr>
+              <tr><td><h4>Aroma:</h4> </td>
+                  <td>Citrus, Fruits, and Hints of Spice</td>
+              </tr>
+              <tr><td><h4>Flavor:</h4> </td>
+                  <td>Chocolate and softness </td>
+              </tr>
+              <tr><td><h4>Body: </h4></td>
+                  <td>Low-to-Medium</td>
+              </tr>
+               <tr><td><h4>Acidity:</h4> </td>
+                   <td>High</td>
+              </tr>
+
+             </table>
+          <h3>Colombian coffee Notes </h3>
+          <p>
+            Colombia is an incredible place to grow coffee, full stop. It comes down to things like the weather (both rain and the overall temperature), the elevation, and the differences in soil that are responsible for the unique flavor profiles in each of the main regions. 
+          </p>
+          <p>
+            The arabica beans play a big factor too, as does the careful harvesting of each bean.
+          </p>
+          <p>
+            There’s no single magic bullet that makes coffee produced in Colombia stand out, which is an interesting parallel to the uniqueness of the farmers who grow it. 
+          </p>
+          <p>
+            It’s a combination of many factors working together that creates this perfect storm, much like the many farmers working together to carry on the tradition and to push the economy forward.
+          </p>
+        </div>
+        <div id="secondary">
+          <p>
+             <img src="./images/Columbia.png" class="small-center-img">
+          </p>
+        </div>
+      </div>
+    
+  
+
+      <div id="footer">
+        <p>
+          Contact: 081-1234567 <br/>
+          Email: beanbrewreview@fakemail.com<br/>
+          Location: Coming Soon !<br/>
+        </p>
+</div>
+    </div>
+  </body>
+</html>
