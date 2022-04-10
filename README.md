@@ -1,6 +1,8 @@
 # BeanBrew
 A Coffee dedicated Website 
-Visit the Website @ 14Mar2021_JG_BeanBrew.surge.sh	
+Visit the Website @
+
+# Vist the website -> 14Mar2021_JG_BeanBrew.surge.sh	
 
 ## Features
 - FlexBox
